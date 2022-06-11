@@ -4,11 +4,15 @@
         <?php
             require('bootstrap_script.html');
         ?>
+        <style>
+            body {
+            background-image: url('one-piece-red.png');
+            }
+        </style>
     </head>
-    <body>
+    <body >
         <!--Your code starts here-->
         <h2 style="color:red">One Piece - Movie Ticket Purchasing</h2>
-        <img src="one-piece-red.png" alt="One Piece Red" width="500px" height="250px">
         <form>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email address</label>
