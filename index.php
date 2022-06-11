@@ -6,13 +6,19 @@
         ?>
         <style>
             body {
-            background-image: url('one-piece-red.png');
+                background-image: url('one-piece-red.png');
+            }
+            h2 {
+                font-family: monospace;
+            }
+            label {
+                color: white;
             }
         </style>
     </head>
     <body >
         <!--Your code starts here-->
-        <h2 style="color:red">One Piece - Movie Ticket Purchasing</h2>
+        <h2 style="color:white;">One Piece - Movie Ticket Purchasing</h2><br><br>
         <form>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email address</label>
