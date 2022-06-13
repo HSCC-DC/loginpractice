@@ -24,15 +24,15 @@
             <div class="col-md-5">
                 <label for="lname" class="form-label">Last Name</label>
                 <input type="text" class="form-control" id="lname">
-            </div>
+            </div><br>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email address</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-            </div>
+            </div><br>
             <div class="dropdown">
                 <label for="movieShowtime" class="form-label">Movie Showtime</label>
-                <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                     Choose...
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -50,15 +50,15 @@
                     <li><a class="dropdown-item" href="#">23:30</a></li>
                 </ul>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-3">
             <label for="dateOfBirth" class="form-label">Date of Birth</label>
             <input type="date" class="form-select" id="dateOfBirth">
             </div>
             <div class="mb-3 form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                <label class="form-check-label" for="exampleCheck1">I am not a robot. I swear!</label>
             </div>
-            <button type="button" class="btn btn-success">Submit Purchase</button>
+            <button type="button" class="btn btn-success">Submit Purchase(s)</button>
 </form>
     </body>
 </html>
