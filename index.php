@@ -17,11 +17,11 @@
         <!--Your code starts here-->
         <h2 style="color:white;">One Piece - Movie Ticket Purchasing</h2><br>
         <form>
-            <div class="mb-3">
+            <div class="col-md-5">
                 <label for="fname" class="form-label">First Name</label>
                 <input type="text" class="form-control" id="fname">
-            </div>
-            <div class="mb-3">
+            </div><br>
+            <div class="col-md-5">
                 <label for="lname" class="form-label">Last Name</label>
                 <input type="text" class="form-control" id="lname">
             </div>
