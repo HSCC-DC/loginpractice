@@ -25,7 +25,7 @@
                 <label for="lname" class="form-label">Last Name</label>
                 <input type="text" class="form-control" id="lname">
             </div><br>
-            <div class="mb-3">
+            <div class="col-md-5">
                 <label for="exampleInputEmail1" class="form-label">Email address</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
@@ -49,15 +49,15 @@
                     <li><a class="dropdown-item" href="#">23:00</a></li>
                     <li><a class="dropdown-item" href="#">23:30</a></li>
                 </ul>
-            </div>
-            <div class="col-md-3">
+            </div><br>
+            <div class="col-md-2">
             <label for="dateOfBirth" class="form-label">Date of Birth</label>
             <input type="date" class="form-select" id="dateOfBirth">
-            </div>
+            </div><br>
             <div class="mb-3 form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">I am not a robot. I swear!</label>
-            </div>
+            </div><br>
             <button type="button" class="btn btn-success">Submit Purchase(s)</button>
 </form>
     </body>
