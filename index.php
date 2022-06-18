@@ -50,7 +50,7 @@
                             <option value="23:30" href="#">23:30</option>
                      </select>
                     </div><br>
-                    <div class="col-md-5">
+                    <div class="col-md-8">
                     <label for="dateOfBirth" class="form-label">Date of Birth</label>
                     <input type="date" class="form-select" id="dateOfBirth" name="dob">
                     </div><br>
