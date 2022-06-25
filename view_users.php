@@ -51,6 +51,7 @@
             <th>Email</th>
             <th>Showtime</th>
             <th>DOB</th>
+            <th></th>
 
           <?php
             require("conn.php");
@@ -65,9 +66,12 @@
                 echo "<td>" . $row["email"]. "</td>" ; 
                 echo "<td>" . $row["showtime"]. "</td>";
                 echo "<td>" . $row["dob"] . "</td>";
-                echo "</tr>";
-            }
-        ?>
+            ?>
+          <td><a href="delete_user.php?id=<?php echo $row['user_id'];?>">Cancel Purchase </a></td>    
+        <?php
+            echo "</tr>"; 
+             }
+            ?> 
         </table>
         </div>
       </div>
