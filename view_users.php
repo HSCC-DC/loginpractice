@@ -67,7 +67,30 @@
                 echo "<td>" . $row["showtime"]. "</td>";
                 echo "<td>" . $row["dob"] . "</td>";
             ?>
-          <td><a href="delete_user.php?id=<?php echo $row['user_id'];?>">Cancel Purchase </a></td>    
+            <td>
+                <button type="button" class="btn primary" data-bs-toggle="modal" data-bs-target="#userConfirmModal">
+                 <a href="#">Undo Purchase</a>
+                </button>
+            </td>
+            
+            <!-- Modal -->
+                <div class="modal fade" id="userConfirmModal" tabindex="-1" aria-labelledby="userConfirmModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="userConfirmModalLabel">Are you sure?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Are you sure you want to cancel this user's movie ticket purchase?
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <a href="delete_user.php?id=<?php echo $row['user_id'];?>"><button type="button" class="btn btn-danger">Undo Purchase</button></a>
+                    </div>
+                    </div>
+                </div>
+                </div>
         <?php
             echo "</tr>"; 
              }
