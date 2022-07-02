@@ -46,15 +46,15 @@
         ?>
             <div class="d-flex justify-content-center align-items-center">
                 <form>
-                    <div class="col-md-8 ">
+                    <div class="col-md-13 ">
                         <label for="fname" class="form-label">First Name</label>
                         <input type="text" class="form-control" id="fname" name="fname">
                     </div><br>
-                    <div class="col-md-8 ">
+                    <div class="col-md-13 ">
                         <label for="lname" class="form-label">Last Name</label>
                         <input type="text" class="form-control" id="lname" name="lname">
                     </div><br>
-                    <div class="col-md-8 ">
+                    <div class="col-md-13 ">
                         <label for="exampleInputEmail1" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
                         <div id="emailHelp" class="form-text" style="color: white;">We'll never share your email with anyone else.</div>
